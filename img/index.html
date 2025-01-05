@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="az">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Azərbaycan Milli Qəhrəmanları</title>
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            background: url('bayraq.png') no-repeat center center fixed;
+            background-size: cover;
+            font-family: Arial, sans-serif;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 20px;
+            padding: 20px;
+        }
+        .hero {
+            width: 300px;
+            height: 300px;
+            position: relative;
+            border: 2px solid #fff;
+            overflow: hidden;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+        }
+        .hero img {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+        }
+        .hero .info {
+            position: absolute;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 10px;
+            box-sizing: border-box;
+        }
+        .hero .description {
+            position: absolute;
+            top: 0;
+            background: rgba(0, 0, 0, 0.5);
+            color: white;
+            width: 100%;
+            text-align: center;
+            padding: 5px;
+            font-size: 14px;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="hero">
+            <img src="qehreman1.jpg" alt="Milli Qəhrəman 1">
+            <div class="info">Milli Qəhrəman 1</div>
+            <div class="description">Milli Qəhrəman 1: Azərbaycanın müstəqilliyi uğrunda şücaət göstərmiş və böyük fədakarlıq etmişdir.</div>
+        </div>
+        <div class="hero">
+            <img src="qehreman2.jpg" alt="Milli Qəhrəman 2">
+            <div class="info">Milli Qəhrəman 2</div>
+            <div class="description">Milli Qəhrəman 2: Vətən müdafiəsində əvəzsiz xidmətləri ilə yadda qalmış qəhrəmandır.</div>
+        </div>
+        <div class="hero">
+            <img src="qehreman3.jpg" alt="Milli Qəhrəman 3">
+            <div class="info">Milli Qəhrəman 3</div>
+            <div class="description">Milli Qəhrəman 3: Qəhrəmanlığı ilə bütün xalqın qəlbində əbədi yer tutmuşdur.</div>
+        </div>
+        <div class="hero">
+            <img src="qehreman4.jpg" alt="Milli Qəhrəman 4">
+            <div class="info">Milli Qəhrəman 4</div>
+            <div class="description">Milli Qəhrəman 4: Azərbaycanın azadlığı və suverenliyi uğrunda həyatını fəda etmişdir.</div>
+        </div>
+    </div>
+</body>
+</html>
